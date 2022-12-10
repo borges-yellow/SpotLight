@@ -1,0 +1,13 @@
+names:
+- go
+- stop
+nc: 2
+roboflow:
+  license: CC BY 4.0
+  project: pedestrain-light
+  url: https://universe.roboflow.com/project/pedestrain-light/dataset/2
+  version: 2
+  workspace: project
+test: ../test/images
+train: /content/datasets/Pedestrain-light-2/train/images
+val: /content/datasets/Pedestrain-light-2/valid/images
